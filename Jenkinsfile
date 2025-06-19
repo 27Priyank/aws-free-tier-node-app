@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git 'https://github.com/27Priyank/aws-free-tier-node-app.git'
+        git 'https://github.com/27Priyank/aws-free-tier-node-app'
       }
     }
 
